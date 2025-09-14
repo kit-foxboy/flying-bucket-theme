@@ -1,0 +1,22 @@
+{
+  "name": "flying-bucket",
+  "displayName": "Flying Bucket Theme",
+  "description": "A dark theme with flying bucket console colors",
+  "version": "0.0.1",
+  "publisher": "kit-kabbit",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Flying Bucket Console",
+        "uiTheme": "vs-dark",
+        "path": "./flying-bucket-console-theme.json"
+      }
+    ]
+  }
+}   
